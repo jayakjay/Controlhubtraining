@@ -1,0 +1,71 @@
+
+<md-sidebar [withIcons]="true" theme="dark" [withToggle]="true">
+        <md-sidebar-header class="sidebar__header">
+                <img [src]="logoImgBlack" class='logo' [hidden]="isCollapsed$ | async" />
+                <i class="icon" [ngClass]="proPackIconRefresh$ | async"></i>
+              </md-sidebar-header>
+    <md-sidebar-body>
+      <md-sidebar-nav>
+        <md-sidebar-nav-item
+        routerLink ="/customer"
+          title="Overview"
+          icon="home_24"
+        >
+        </md-sidebar-nav-item>
+        <md-sidebar-nav-item
+        routerLink ="/lazy"
+          title="Users"
+          icon="people_24"
+        >
+        </md-sidebar-nav-item>
+        <md-sidebar-nav-item
+          (navItemClick) = "onClick($event)"
+          title="Places"
+          icon="location_24"
+        >
+        </md-sidebar-nav-item>
+        <md-sidebar-nav-item
+          (navItemClick) = "onClick($event)"
+          title="Services"
+          icon="cloud_24"
+        >
+        </md-sidebar-nav-item>
+        <md-sidebar-nav-item
+          (navItemClick) = "onClick($event)"
+          title="Devices"
+          icon="endpoint_24"
+        >
+        </md-sidebar-nav-item>
+        <md-sidebar-nav-item
+          (navItemClick) = "onClick($event)"
+          title="Analytics"
+          icon="analysis_24"
+        >
+        </md-sidebar-nav-item>
+        <md-sidebar-nav-item
+          (navItemClick) = "onClick($event)"
+          title="Troubleshooting"
+          icon="diagnostics_24"
+        >
+        </md-sidebar-nav-item>
+        <md-sidebar-nav-item
+          (navItemClick) = "onClick($event)"
+          title="Settings"
+          icon="settings_24"
+        >
+        </md-sidebar-nav-item>
+        <md-sidebar-nav-item
+          (navItemClick) = "onClick($event)"
+          title="Development"
+          icon="tools_32"
+        >
+        </md-sidebar-nav-item>
+  
+      </md-sidebar-nav>
+      <app-sidefooter></app-sidefooter>
+    </md-sidebar-body>
+    
+
+  </md-sidebar>
+  
+    

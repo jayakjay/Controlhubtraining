@@ -1,0 +1,726 @@
+{
+    "organizations": [
+      {
+        "customerOrgId": "c78d7675-85c2-466f-8d7f-3b8da86511c3",
+        "startDate": "2018-08-15T00:00:00.000Z",
+        "trialPeriod": 90,
+        "offers": [
+          {
+            "id": "WEBEX",
+            "licenseCount": 100,
+            "usageCount": 0
+          },
+          {
+            "id": "MESSAGE",
+            "licenseCount": 100,
+            "usageCount": 0
+          },
+          {
+            "id": "SPARKBOARDS",
+            "licenseCount": 5,
+            "usageCount": 0
+          },
+          {
+            "id": "CARE",
+            "licenseCount": 15,
+            "usageCount": 0
+          },
+          {
+            "id": "ROOMSYSTEMS",
+            "licenseCount": 5,
+            "usageCount": 0
+          },
+          {
+            "id": "MEETING",
+            "licenseCount": 100,
+            "usageCount": 0
+          },
+          {
+            "id": "CALL",
+            "licenseCount": 100,
+            "usageCount": 0
+          }
+       ],
+        "licenses": [
+          {
+            "licenseId": "EE_34be2f96-345b-4580-bb92-22bb9fadf989",
+            "subEndDate": "2018-11-13T00:00:00.000Z",
+            "licenseUsage": 2,
+            "offerName": "EE",
+            "licenseType": "CONFERENCING",
+            "features": [
+              "cloudmeetings"
+            ],
+            "volume": 100,
+            "isTrial": true,
+            "trialId": "cdf24c10-7890-4456-81d8-04b4b7e820e2",
+            "status": "ACTIVE",
+            "capacity": 200,
+            "siteUrl": "atlastestmyavirl.webex.com",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "MS_3e6d229b-2bc7-417c-b72b-d48eb39c0757",
+            "subEndDate": "2018-11-13T00:00:00.000Z",
+            "licenseUsage": 2,
+            "offerName": "MS",
+            "licenseType": "MESSAGING",
+            "features": [
+              "squared-room-moderation"
+            ],
+            "volume": 100,
+            "isTrial": true,
+            "trialId": "cdf24c10-7890-4456-81d8-04b4b7e820e2",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "ST_3fdde102-f77f-48d3-a4e9-f34f78a710b3",
+            "subEndDate": "2018-11-13T00:00:00.000Z",
+            "licenseUsage": 0,
+            "offerName": "ST",
+            "licenseType": "STORAGE",
+            "features": [
+            
+            ],
+            "volume": 100,
+            "isTrial": true,
+            "trialId": "cdf24c10-7890-4456-81d8-04b4b7e820e2",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "SB_4a6fbb74-5ba0-440e-b4de-7c7787bd2813",
+            "subEndDate": "2018-11-13T00:00:00.000Z",
+            "licenseUsage": 0,
+            "offerName": "SB",
+            "licenseType": "SHARED_DEVICES",
+            "features": [
+              "spark-room-system",
+              "ciscouc"
+            ],
+            "volume": 5,
+            "isTrial": true,
+            "trialId": "cdf24c10-7890-4456-81d8-04b4b7e820e2",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "CMR_7c99c16e-9429-4ac4-9211-a163ef3f2f54",
+            "subEndDate": "2018-11-13T00:00:00.000Z",
+            "licenseUsage": 2,
+            "offerName": "CMR",
+            "licenseType": "CMR",
+            "features": [
+              "cloudmeetings"
+            ],
+            "volume": 100,
+            "isTrial": true,
+            "trialId": "cdf24c10-7890-4456-81d8-04b4b7e820e2",
+            "status": "ACTIVE",
+            "capacity": 200,
+            "siteUrl": "atlastestmyavirl.webex.com",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "CDC_95e11580-0371-455c-b41b-2e1a37f25e08",
+            "subEndDate": "2018-11-13T00:00:00.000Z",
+            "licenseUsage": 2,
+            "offerName": "CDC",
+            "licenseType": "CARE",
+            "features": [
+              "contact-center-context",
+              "cloud-contact-center-digital",
+              "cloud-contact-center"
+            ],
+            "volume": 15,
+            "isTrial": true,
+            "trialId": "cdf24c10-7890-4456-81d8-04b4b7e820e2",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "SD_995155c0-0b28-4694-8c1f-28a417c021a8",
+            "subEndDate": "2018-11-13T00:00:00.000Z",
+            "licenseUsage": 0,
+            "offerName": "SD",
+            "licenseType": "SHARED_DEVICES",
+            "features": [
+              "spark-room-system",
+              "ciscouc"
+            ],
+            "volume": 5,
+            "isTrial": true,
+            "trialId": "cdf24c10-7890-4456-81d8-04b4b7e820e2",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "CF_9db1b885-330b-4de8-b232-ed73ba1e43c7",
+            "subEndDate": "2018-11-13T00:00:00.000Z",
+            "licenseUsage": 2,
+            "offerName": "CF",
+            "licenseType": "CONFERENCING",
+            "features": [
+              "squared-syncup"
+            ],
+            "volume": 100,
+            "isTrial": true,
+            "trialId": "cdf24c10-7890-4456-81d8-04b4b7e820e2",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "CO_ac416be7-7a2c-4019-ba46-8b9209e2063d",
+            "subEndDate": "2018-11-13T00:00:00.000Z",
+            "licenseUsage": 2,
+            "offerName": "CO",
+            "licenseType": "COMMUNICATION",
+            "features": [
+              "ciscouc"
+            ],
+            "volume": 100,
+            "isTrial": true,
+            "trialId": "cdf24c10-7890-4456-81d8-04b4b7e820e2",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          }
+        ],
+        "state": "ACTIVE",
+        "customerName": "Atlas_Test_MyAvril",
+        "customerEmail": "gaddamsantosh+10@gmail.com",
+        "trialId": "cdf24c10-7890-4456-81d8-04b4b7e820e2",
+        "isAllowedToManage": true,
+        "isTestOrg": true,
+        "createdDate": "2018-08-15T00:00:00.000Z",
+        "orderProvisioningStatus": "NA",
+        "activeUsers": 0,
+        "allUsers": 0,
+        "provStatus": "Aborted",
+        "totalLicenses":"210",
+        "Notes":"Expired"
+      },
+      {
+        "customerOrgId": "22d5320c-ffd8-4b36-bee5-83bb3c7cfe9f",
+        "startDate": "2018-07-05T00:00:00.000Z",
+        "trialPeriod": 90,
+        "offers": [
+          {
+            "id": "CALL",
+            "licenseCount": 10,
+            "usageCount": 0
+          },
+          {
+            "id": "ROOMSYSTEMS",
+            "licenseCount": 5,
+            "usageCount": 0
+          },
+          {
+            "id": "MESSAGE",
+            "licenseCount": 10,
+            "usageCount": 0
+          },
+          {
+            "id": "SPARKBOARDS",
+            "licenseCount": 5,
+            "usageCount": 0
+          }
+        ],
+        "licenses": [
+          {
+            "licenseId": "CO_226fd36c-36a8-4f6c-b2a8-4539fcb003e2",
+            "subEndDate": "2018-10-03T00:00:00.000Z",
+            "licenseUsage": 4,
+            "offerName": "CO",
+            "licenseType": "COMMUNICATION",
+            "features": [
+              "ciscouc"
+            ],
+            "volume": 10,
+            "isTrial": true,
+            "trialId": "df0183d8-3ec4-4dca-bbb9-1475c44e135b",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "SD_3b950ea5-9ca4-4b8a-9f07-1fedb4022024",
+            "subEndDate": "2018-10-03T00:00:00.000Z",
+            "licenseUsage": 0,
+            "offerName": "SD",
+            "licenseType": "SHARED_DEVICES",
+            "features": [
+              "spark-room-system",
+              "ciscouc"
+            ],
+            "volume": 5,
+            "isTrial": true,
+            "trialId": "df0183d8-3ec4-4dca-bbb9-1475c44e135b",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+           "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "MS_8d0d4858-2d77-4d7e-a045-3078a66db100",
+            "subEndDate": "2018-10-03T00:00:00.000Z",
+            "licenseUsage": 0,
+            "offerName": "MS",
+            "licenseType": "MESSAGING",
+            "features": [
+              "squared-room-moderation"
+            ],
+            "volume": 10,
+            "isTrial": true,
+            "trialId": "df0183d8-3ec4-4dca-bbb9-1475c44e135b",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "SB_e389389c-9122-4f49-aea6-96b4cbb2da20",
+            "subEndDate": "2018-10-03T00:00:00.000Z",
+            "licenseUsage": 0,
+            "offerName": "SB",
+            "licenseType": "SHARED_DEVICES",
+            "features": [
+              "spark-room-system",
+              "ciscouc"
+            ],
+            "volume": 5,
+            "isTrial": true,
+            "trialId": "df0183d8-3ec4-4dca-bbb9-1475c44e135b",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          }
+        ],
+        "state": "ACTIVE",
+        "customerName": "Atlas_Test_aparulek77",
+        "customerEmail": "parulekara+778@gmail.com",
+        "trialId": "df0183d8-3ec4-4dca-bbb9-1475c44e135b",
+        "isAllowedToManage": true,
+        "isTestOrg": true,
+        "createdDate": "2018-07-05T00:00:00.000Z",
+        "orderProvisioningStatus": "NA",
+        "activeUsers": 0,
+        "allUsers": 0,
+        "provStatus": "Provisioned",
+        "totalLicenses":"70",
+        "Notes":"Expired"
+      },
+      {
+        "customerOrgId": "6ffecca6-0ec4-48e6-a270-797c172809ae",
+        "startDate": "2018-07-06T00:00:00.000Z",
+        "trialPeriod": 90,
+        "offers": [
+          {
+            "id": "ROOMSYSTEMS",
+            "licenseCount": 5,
+            "usageCount": 0
+          },
+          {
+            "id": "MESSAGE",
+            "licenseCount": 100,
+            "usageCount": 0
+          },
+          {
+            "id": "CARE",
+            "licenseCount": 15,
+            "usageCount": 0
+          },
+          {
+            "id": "SPARKBOARDS",
+            "licenseCount": 5,
+            "usageCount": 0
+          },
+          {
+            "id": "CALL",
+            "licenseCount": 100,
+            "usageCount": 0
+          }
+        ],
+        "licenses": [
+          {
+            "licenseId": "SD_3709e18c-84e1-4a63-a956-6e1ab2ca8714",
+            "subEndDate": "2018-10-04T00:00:00.000Z",
+            "licenseUsage": 0,
+            "offerName": "SD",
+            "licenseType": "SHARED_DEVICES",
+            "features": [
+              "spark-room-system",
+              "ciscouc"
+            ],
+            "volume": 5,
+            "isTrial": true,
+            "trialId": "be936a72-442a-42cc-aafc-5ccfec3d6409",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "MS_7ce4e3b5-c525-441a-9681-6d4a6f53d0ea",
+            "subEndDate": "2018-10-04T00:00:00.000Z",
+            "licenseUsage": 0,
+            "offerName": "MS",
+            "licenseType": "MESSAGING",
+            "features": [
+              "squared-room-moderation"
+            ],
+            "volume": 100,
+            "isTrial": true,
+            "trialId": "be936a72-442a-42cc-aafc-5ccfec3d6409",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "CDC_7f4104e2-2051-44da-be53-532099576260",
+            "subEndDate": "2018-10-04T00:00:00.000Z",
+            "licenseUsage": 0,
+            "offerName": "CDC",
+            "licenseType": "CARE",
+            "features": [
+              "contact-center-context",
+              "cloud-contact-center-digital",
+              "cloud-contact-center"
+            ],
+            "volume": 15,
+            "isTrial": true,
+            "trialId": "be936a72-442a-42cc-aafc-5ccfec3d6409",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "SB_a9b69f39-42c7-4200-8d30-dff1aba27153",
+            "subEndDate": "2018-10-04T00:00:00.000Z",
+            "licenseUsage": 0,
+            "offerName": "SB",
+            "licenseType": "SHARED_DEVICES",
+            "features": [
+              "spark-room-system",
+              "ciscouc"
+            ],
+            "volume": 5,
+            "isTrial": true,
+            "trialId": "be936a72-442a-42cc-aafc-5ccfec3d6409",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "CO_ed8a70d9-043a-4aba-8590-75ed082ae601",
+            "subEndDate": "2018-10-04T00:00:00.000Z",
+            "licenseUsage": 1,
+            "offerName": "CO",
+            "licenseType": "COMMUNICATION",
+            "features": [
+              "ciscouc"
+            ],
+            "volume": 100,
+            "isTrial": true,
+            "trialId": "be936a72-442a-42cc-aafc-5ccfec3d6409",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          }
+        ],
+        "state": "ACTIVE",
+        "customerName": "Atlas_Test_aparulek_4",
+        "customerEmail": "parulekara+452@gmail.com",
+        "trialId": "be936a72-442a-42cc-aafc-5ccfec3d6409",
+        "isAllowedToManage": true,
+        "isTestOrg": true,
+        "createdDate": "2018-07-06T00:00:00.000Z",
+        "orderProvisioningStatus": "NA",
+        "activeUsers": 0,
+        "allUsers": 0,
+        "provStatus": "Provisioned",
+        "totalLicenses":"30",
+        "Notes":"Expired"
+      },
+      {
+        "customerOrgId": "2c3df9a2-efb3-4556-8f82-3438c5e88a3f",
+        "startDate": "2018-08-08T00:00:00.000Z",
+        "trialPeriod": 90,
+        "offers": [
+          {
+            "id": "WEBEX",
+            "licenseCount": 100,
+            "usageCount": 0
+          },
+          {
+            "id": "MEETING",
+            "licenseCount": 100,
+            "usageCount": 0
+          },
+          {
+            "id": "SPARKBOARDS",
+            "licenseCount": 5,
+            "usageCount": 0
+          },
+          {
+            "id": "CARE",
+            "licenseCount": 15,
+            "usageCount": 0
+          },
+          {
+            "id": "MESSAGE",
+            "licenseCount": 100,
+            "usageCount": 0
+          },
+          {
+            "id": "CALL",
+            "licenseCount": 100,
+            "usageCount": 0
+          },
+          {
+            "id": "ROOMSYSTEMS",
+            "licenseCount": 5,
+            "usageCount": 0
+          }
+        ],
+        "licenses": [
+          {
+            "licenseId": "ST_02866057-2d22-4db5-9983-94233ca611d3",
+            "subEndDate": "2018-11-06T00:00:00.000Z",
+            "licenseUsage": 0,
+            "offerName": "ST",
+            "licenseType": "STORAGE",
+            "features": [
+            
+            ],
+            "volume": 100,
+            "isTrial": true,
+            "trialId": "2a42332d-9f22-4b6e-a3e0-e4e3a787f023",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "CF_11cbd1d6-0f7c-44b3-be64-4dd8b4bd21bb",
+            "subEndDate": "2018-11-06T00:00:00.000Z",
+            "licenseUsage": 0,
+            "offerName": "CF",
+            "licenseType": "CONFERENCING",
+            "features": [
+              "squared-syncup"
+            ],
+            "volume": 100,
+            "isTrial": true,
+            "trialId": "2a42332d-9f22-4b6e-a3e0-e4e3a787f023",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "SB_2abb8d5d-4ea2-4b7d-a959-c8b30d6de7b6",
+            "subEndDate": "2018-11-06T00:00:00.000Z",
+            "licenseUsage": 0,
+            "offerName": "SB",
+            "licenseType": "SHARED_DEVICES",
+            "features": [
+              "spark-room-system",
+              "ciscouc"
+            ],
+            "volume": 5,
+            "isTrial": true,
+            "trialId": "2a42332d-9f22-4b6e-a3e0-e4e3a787f023",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "CDC_448df7c5-480a-4db4-8a1e-a53685374fe3",
+            "subEndDate": "2018-11-06T00:00:00.000Z",
+            "licenseUsage": 0,
+            "offerName": "CDC",
+            "licenseType": "CARE",
+            "features": [
+              "contact-center-context",
+              "cloud-contact-center-digital",
+              "cloud-contact-center"
+            ],
+            "volume": 15,
+            "isTrial": true,
+            "trialId": "2a42332d-9f22-4b6e-a3e0-e4e3a787f023",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "EE_754fd3f1-24f3-4f4d-9082-ce3bf0112fff",
+            "subEndDate": "2018-11-06T00:00:00.000Z",
+            "licenseUsage": 0,
+            "offerName": "EE",
+            "licenseType": "CONFERENCING",
+            "features": [
+              "cloudmeetings"
+            ],
+            "volume": 100,
+            "isTrial": true,
+            "trialId": "2a42332d-9f22-4b6e-a3e0-e4e3a787f023",
+            "status": "ACTIVE",
+            "capacity": 200,
+            "siteUrl": "rynixavrile.webex.com",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "MS_afd72c0d-febf-4583-8b09-38e7262fb9bc",
+            "subEndDate": "2018-11-06T00:00:00.000Z",
+            "licenseUsage": 0,
+            "offerName": "MS",
+            "licenseType": "MESSAGING",
+            "features": [
+              "squared-room-moderation"
+            ],
+            "volume": 100,
+            "isTrial": true,
+            "trialId": "2a42332d-9f22-4b6e-a3e0-e4e3a787f023",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "CO_c4baaecb-3e51-4337-84f0-67cc71e7b85e",
+            "subEndDate": "2018-11-06T00:00:00.000Z",
+            "licenseUsage": 2,
+            "offerName": "CO",
+            "licenseType": "COMMUNICATION",
+            "features": [
+              "ciscouc"
+            ],
+            "volume": 100,
+            "isTrial": true,
+           "trialId": "2a42332d-9f22-4b6e-a3e0-e4e3a787f023",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "SD_dc4c1554-0a09-4604-bd1f-6194f05dfc55",
+            "subEndDate": "2018-11-06T00:00:00.000Z",
+            "licenseUsage": 0,
+            "offerName": "SD",
+            "licenseType": "SHARED_DEVICES",
+            "features": [
+              "spark-room-system",
+              "ciscouc"
+            ],
+            "volume": 5,
+            "isTrial": true,
+            "trialId": "2a42332d-9f22-4b6e-a3e0-e4e3a787f023",
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          },
+          {
+            "licenseId": "CMR_f498bf36-c0a2-4ec1-9617-99f5af8e9998",
+            "subEndDate": "2018-11-06T00:00:00.000Z",
+            "licenseUsage": 0,
+            "offerName": "CMR",
+            "licenseType": "CMR",
+            "features": [
+              "cloudmeetings"
+            ],
+            "volume": 100,
+            "isTrial": true,
+            "trialId": "2a42332d-9f22-4b6e-a3e0-e4e3a787f023",
+            "status": "ACTIVE",
+            "capacity": 200,
+            "siteUrl": "rynixavrile.webex.com",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          }
+        ],
+        "state": "ACTIVE",
+        "customerName": "Atlas_Test_rynixAvril",
+        "customerEmail": "nixamas+avrilcust@gmail.com",
+        "trialId": "2a42332d-9f22-4b6e-a3e0-e4e3a787f023",
+        "isAllowedToManage": true,
+        "isTestOrg": true,
+        "createdDate": "2018-08-08T00:00:00.000Z",
+        "orderProvisioningStatus": "NA",
+        "activeUsers": 0,
+        "allUsers": 0,
+        "provStatus": "Aborted",
+        "totalLicenses":"150",
+        "Notes":"Expired"
+      },
+      {
+        "customerOrgId": "1c736b30-6781-4358-8c07-087b81cd9235",
+        "offers": [
+        
+        ],
+        "licenses": [
+          {
+            "licenseId": "MS_1def44cf-f693-4b1c-9485-f4e769b346df",
+            "licenseUsage": 0,
+            "offerName": "MS",
+            "licenseType": "MESSAGING",
+            "billingServiceId": "test-RA-ucmgmt-503a",
+            "features": [
+              "squared-room-moderation"
+            ],
+            "volume": 10,
+            "isTrial": false,
+            "status": "ACTIVE",
+            "partnerOrgId": "530efaa2-0f9b-475c-9a5c-b861755c7848",
+            "partnerEmail": "ucmgmt.partner+uaas@gmail.com",
+            "provisioningStatus": "PROVISIONED"
+          }
+        ],
+        "state": "ACTIVE",
+        "customerName": "Atlas_Test_ucmgmt_uaas_cust1_DND",
+        "customerEmail": "ucmgmt.partner+uaas-cust1@gmail.com",
+        "isAllowedToManage": true,
+        "isTestOrg": true,
+        "orderProvisioningStatus": "NA",
+        "activeUsers": 0,
+        "allUsers": 0,
+        "provStatus": "Provisioned",
+        "totalLicenses":"100",
+        "Notes":"Expired"
+      }
+    ],
+    "total": 5,
+    "startIndex": 0,
+    "count": 5
+  }

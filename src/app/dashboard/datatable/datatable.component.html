@@ -1,0 +1,43 @@
+<md-data-table [columns]="columns" [data]="people" containerClass="testContainerClass" tableClass="testTableClass">
+
+        <ng-template mdTemplateName="header" let-columns>
+        <tr class="header-style">
+        <th style="width: 21rem">Customer Name</th>
+        <th>Services</th>
+        <th>Account Status</th>
+        <th>Total Licenses</th>
+        <th>Notes</th>
+        </tr>
+        </ng-template>
+        
+        <ng-template mdTemplateName="body" let-row let-columns="columns">
+        <tr>
+        <td>
+        {{row['customerName']}}
+        </td>
+        <td>
+        <span *ngFor="let serv of row['services']">
+        <i *ngIf="serv.id == 'CALL'" class="cui-icon icon icon-audio-call_16" style="margin-right:15px;"></i>
+        <i *ngIf="serv.id == 'WEBEX'" class="cui-icon icon icon-webex_16" style="margin-right:15px;"></i>
+        <i *ngIf="serv.id == 'MESSAGE'" class="cui-icon icon icon-broadcast-message_16" style="margin-right:15px;"></i>
+        <i *ngIf="serv.id == 'SPARKBOARDS'" class="cui-icon icon icon-webex-board_16" style="margin-right:15px;"></i>
+        <i *ngIf="serv.id == 'CARE'" class="cui-icon icon icon-headset_16" style="margin-right:15px;"></i>
+        <i *ngIf="serv.id == 'ROOMSYSTEMS'" class="cui-icon icon icon-device-in-room_16" style="margin-right:15px;"></i>
+        <i *ngIf="serv.id == 'MEETING'" class="cui-icon icon icon-meetings_16" style="margin-right:15px;"></i>
+        </span>
+        
+        
+        </td>
+        <td>
+        {{row['accountStatus']}}
+        </td>
+        <td>
+        {{row['totalLicenses']}}
+                </td>
+                <td>
+                {{row['Notes']}}
+                </td>
+        </tr>
+        </ng-template>
+        
+        </md-data-table>
